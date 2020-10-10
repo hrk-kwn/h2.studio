@@ -1,5 +1,12 @@
 [
   {
+    "name": "sample",
+    "path": "/sample",
+    "component": "/Users/kuwano/Documents/private_work/h2.studio/pages/sample/index.vue",
+    "chunkName": "pages/sample/index",
+    "_name": "_52dde996"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/kuwano/Documents/private_work/h2.studio/pages/index.vue",

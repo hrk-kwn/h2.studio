@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div>
+    <!-- <div>
       <Logo />
       <h1 class="title">
         h2.studio
@@ -23,7 +23,13 @@
           GitHub
         </a>
       </div>
-    </div>
+
+    </div> -->
+    <div class="g">
+        <div class="left">左</div>
+        <div class="center">中央</div>
+        <div class="right">右</div>
+      </div>
   </div>
 </template>
 
@@ -32,10 +38,18 @@ export default {}
 </script>
 
 <style>
-.container {
+<!-- .container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} -->
+
+.container {
+  width: 100%;
+  height: 1000px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -71,4 +85,31 @@ export default {}
   padding-top: 15px;
 }
 
+.g{
+  width: 100%;
+  height: 100%;
+  background-color: #35495e;
+  text-align: center;
+}
+
+.left{
+  width: 33%;
+  height: 100%;
+  float: left;
+  background-color: #d6e29b;
+}
+
+.center{
+  width: 33%;
+  height: 100%;
+  float: left;
+  background-color: #e9ab5b;
+}
+
+.right{
+  width: 33%;
+  height: 100%;
+  float: left;
+  background-color: #8e8ca0;
+}
 </style>
